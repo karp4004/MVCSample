@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- From: file:/D:/android/MVCSample/ClinicSchedule/ClinicSchedule/build/intermediates/exploded-aar/ClinicSchedule/androidsupportv7appcompat/unspecified/res/values-xlarge-land/values-xlarge-land.xml -->
+    <eat-comment/>
+    <dimen name="abc_search_view_text_min_width">256dip</dimen>
+</resources>

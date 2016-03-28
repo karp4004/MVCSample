@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- From: file:/D:/android/MVCSample/ClinicSchedule/androidsupportv7appcompat/src/main/res/values-ldrtl-v23/styles_base.xml -->
+    <eat-comment/>
+    <style name="Base.Widget.AppCompat.Spinner.Underlined" parent="android:Widget.Material.Spinner.Underlined"/>
+</resources>

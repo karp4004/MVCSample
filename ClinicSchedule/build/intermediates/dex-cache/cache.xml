@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<items version="2" >
+
+    <item
+        jar="D:\android\ClinicSchedule\ClinicSchedule\build\intermediates\exploded-aar\ClinicSchedule\androidsupportv7appcompat\unspecified\jars\classes.jar"
+        jumboMode="false"
+        revision="23.0.1"
+        sha1="2831fd8141a42c4b9dc3a2dd1ee45961ad1c195a">
+        <dex dex="D:\android\ClinicSchedule\ClinicSchedule\build\intermediates\pre-dexed\debug\classes-87f7997320c05b1c5947c6053e23e00c5e7cd434.jar" />
+    </item>
+    <item
+        jar="D:\android\MVCSample\ClinicSchedule\ClinicSchedule\build\intermediates\exploded-aar\ClinicSchedule\androidsupportv7appcompat\unspecified\jars\libs\android-support-v4.jar"
+        jumboMode="false"
+        revision="23.0.1"
+        sha1="91a1b1aabf740a6f64c2f73f5b0dc6611779ac8b">
+        <dex dex="D:\android\MVCSample\ClinicSchedule\ClinicSchedule\build\intermediates\pre-dexed\debug\android-support-v4-b42347a55daba355a380aebedb6fb857ac8af6f4.jar" />
+    </item>
+    <item
+        jar="D:\android\ClinicSchedule\ClinicSchedule\build\intermediates\exploded-aar\ClinicSchedule\androidsupportv7appcompat\unspecified\jars\libs\android-support-v4.jar"
+        jumboMode="false"
+        revision="23.0.1"
+        sha1="91a1b1aabf740a6f64c2f73f5b0dc6611779ac8b">
+        <dex dex="D:\android\ClinicSchedule\ClinicSchedule\build\intermediates\pre-dexed\debug\android-support-v4-e98134832874dd8e0df26e8b3e082848c6f1bdec.jar" />
+    </item>
+    <item
+        jar="D:\android\MVCSample\ClinicSchedule\ClinicSchedule\build\intermediates\exploded-aar\ClinicSchedule\androidsupportv7appcompat\unspecified\jars\classes.jar"
+        jumboMode="false"
+        revision="23.0.1"
+        sha1="0b6784654e96b090236fdb7339d037dd7d5e0c19">
+        <dex dex="D:\android\MVCSample\ClinicSchedule\ClinicSchedule\build\intermediates\pre-dexed\debug\classes-c62cb1aa5726821ba49ba97fc613cb0e628022c3.jar" />
+    </item>
+
+</items>

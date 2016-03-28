@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- From: file:/D:/android/MVCSample/ClinicSchedule/ClinicSchedule/build/intermediates/exploded-aar/ClinicSchedule/androidsupportv7appcompat/unspecified/res/values-hdpi/values-hdpi.xml -->
+    <eat-comment/>
+    <style name="Base.Widget.AppCompat.DrawerArrowToggle" parent="Base.Widget.AppCompat.DrawerArrowToggle.Common">
+          <item name="barLength">18.66dp</item>
+          <item name="gapBetweenBars">3.33dp</item>
+          <item name="drawableSize">24dp</item>
+     </style>
+</resources>
