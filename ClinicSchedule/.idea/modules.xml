@@ -3,7 +3,8 @@
   <component name="ProjectModuleManager">
     <modules>
       <module fileurl="file://$PROJECT_DIR$/ClinicSchedule.iml" filepath="$PROJECT_DIR$/ClinicSchedule.iml" />
-      <module fileurl="file://$PROJECT_DIR$/app/app.iml" filepath="$PROJECT_DIR$/app/app.iml" />
+      <module fileurl="file://$PROJECT_DIR$/ClinicSchedule/ClinicSchedule-ClinicSchedule.iml" filepath="$PROJECT_DIR$/ClinicSchedule/ClinicSchedule-ClinicSchedule.iml" />
+      <module fileurl="file://$PROJECT_DIR$/androidsupportv7appcompat/androidsupportv7appcompat.iml" filepath="$PROJECT_DIR$/androidsupportv7appcompat/androidsupportv7appcompat.iml" />
     </modules>
   </component>
 </project>

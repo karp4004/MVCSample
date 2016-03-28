@@ -1,1 +1,2 @@
-include ':app'
+include ':androidsupportv7appcompat'
+include ':ClinicSchedule'
