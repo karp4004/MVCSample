@@ -3,6 +3,8 @@ package karp4004.clinicschedule;
 import android.util.Log;
 import android.util.SparseArray;
 
+import java.util.ArrayList;
+
 /**
  * Created by okarpov on 3/28/2016.
  */
@@ -45,7 +47,7 @@ public class Model {
         return 22;
     }
 
-    void sortRecords(Model.Record[] mRecords, ModelEvent event)
+    void sortRecords(ArrayList<Record> mRecords, ModelEvent event)
     {
         int startHour = 8, endHour = 22;
 

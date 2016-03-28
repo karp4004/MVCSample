@@ -1,0 +1,16 @@
+﻿{"clients":
+[
+{"hour": 4, "minute": 35, "name": "Иванов И.", "duration": 30, "color": 4278190080},
+{"hour": 14, "minute": 15, "name": "Петров П.", "duration": 45, "color": 4278190335},
+{"hour": 14, "minute": 5, "name": "Сидоров С.", "duration": 15, "color": 4294901760},
+{"hour": 20, "minute": 30, "name": "er b.", "duration": 20, "color": 4294967040},
+{"hour": 3, "minute": 10, "name": "rrr b.", "duration": 25, "color": 4294901760},
+{"hour": 20, "minute": 15, "name": "eee b.", "duration": 45, "color": 4278190080},
+{"hour": 20, "minute": 30, "name": "www b. new", "duration": 60, "color": 4294901760},
+{"hour": 12, "minute": 10, "name": "nnn b.", "duration": 55, "color": 4294967040},
+{"hour": 11, "minute": 15, "name": "qqq b.", "duration": 15, "color": 4278190335},
+{"hour": 9, "minute": 30, "name": "ooo b. new 1", "duration": 43, "color": 4294901760},
+{"hour": 21, "minute": 30, "name": "ppp b. new 1", "duration": 30, "color": 4294967040},
+{"hour": 9, "minute": 40, "name": "ooo b. new 1", "duration": 43, "color": 4294901760}
+]
+}

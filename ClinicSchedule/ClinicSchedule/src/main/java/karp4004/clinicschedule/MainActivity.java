@@ -3,8 +3,15 @@ package karp4004.clinicschedule;
 import com.example.s3test.R;
 
 import android.app.Activity;
+import android.content.res.AssetManager;
 import android.graphics.Color;
 import android.os.Bundle;
+import android.util.Log;
+
+import org.json.*;
+
+import java.io.InputStream;
+import java.util.ArrayList;
 
 public class MainActivity extends Activity {
 
@@ -32,6 +39,41 @@ public class MainActivity extends Activity {
                 new Model.Record(19, 30, "zzz b. new 3", 61, Color.BLUE)
         };
 
-        mController.fillScheduleTable(mRecords);
+        try {
+            AssetManager assetMgr = this.getAssets();
+            InputStream s = assetMgr.open("Clients.txt");
+
+            byte[] data = new byte[s.available()];
+            s.read(data);
+            String dataString = new String(data);
+
+            Log.i("OnCreate", "dataString:" + dataString);
+
+            JSONObject json = new JSONObject(dataString);
+            JSONArray arr = json.getJSONArray("clients");
+
+            ArrayList<Model.Record> mRecs = new ArrayList<>();
+
+            for(int i=0;i<arr.length();i++) {
+                JSONObject o = arr.getJSONObject(i);
+                Model.Record r = new Model.Record(o.getInt("hour"),
+                o.getInt("minute"),
+                                                    o.getString("name"),
+                                                    o.getInt("duration"),
+                                                    o.getInt("color"));
+
+                Log.i("OnCreat", "c:" + r.mColor);
+
+                mRecs.add(r);
+            }
+
+            mController.fillScheduleTable(mRecs);
+        }
+        catch (Exception e)
+        {
+            Log.i("OnCreate", "e:" + e);
+        }
+
+        //mController.fillScheduleTable(mRecords);
     }
 }

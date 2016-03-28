@@ -12,6 +12,8 @@ import android.app.Activity;
 import android.view.View;
 import android.content.Context;
 
+import java.util.ArrayList;
+
 /**
  * Created by okarpov on 3/28/2016.
  */
@@ -38,7 +40,7 @@ public class Controller implements Model.ModelEvent{
         scheduleTable = (ViewGroup)mActivity.findViewById(R.id.scheduleTable);
     }
 
-    public void fillScheduleTable(Model.Record[] mRecords)
+    public void fillScheduleTable(ArrayList<Model.Record> mRecords)
     {
         for(int i=mModel.getStartHour();i<=mModel.getEndHour();i++) {
             TextView v = new TextView(mActivity);
