@@ -17,9 +17,9 @@ public class MainActivity extends Activity {
         mController = new Controller(this);
 
         Model.Record[] mRecords = new Model.Record[]{
-                new Model.Record(4, 35, "Р�РІР°РЅРѕРІ Р�.", 30, Color.BLACK),
-                new Model.Record(14, 15, "РџРµС‚СЂРѕРІ Рџ.", 45, Color.BLUE),
-                new Model.Record(14, 5, "РЎРёРґРѕСЂРѕРІ РЎ.", 15, Color.RED),
+                new Model.Record(4, 35, "Иванов И.", 30, Color.BLACK),
+                new Model.Record(14, 15, "Петров П.", 45, Color.BLUE),
+                new Model.Record(14, 5, "Сидоров С.", 15, Color.RED),
                 new Model.Record(20, 30, "er b.", 20, Color.YELLOW),
                 new Model.Record(3, 10, "rrr b.", 25, Color.RED),
                 new Model.Record(20, 15, "eee b.", 45, Color.BLACK),
