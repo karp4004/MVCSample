@@ -49,24 +49,22 @@ public class Model {
 
     void sortRecords(ArrayList<Record> mRecords, ModelEvent event)
     {
-        int startHour = 8, endHour = 22;
-
         //SORT
         SparseArray<SparseArray<Record>> sorted = new SparseArray<SparseArray<Record>>();
         for (Record r:
                 mRecords) {
 
-            if(r.mHour < startHour || r.mHour > endHour || r.mDuration > 60)
+            if(r.mHour < getStartHour() || r.mHour > getEndHour() || r.mDuration > 60)
                 continue;
 
             SparseArray<Record> min = sorted.get(r.mHour);
             if(min == null)
             {
                 min = new SparseArray<>();
+                sorted.put(r.mHour, min);
             }
 
             min.put(r.mMinute, r);
-            sorted.put(r.mHour, min);
         }
 
         for(int k=0;k<sorted.size();k++)

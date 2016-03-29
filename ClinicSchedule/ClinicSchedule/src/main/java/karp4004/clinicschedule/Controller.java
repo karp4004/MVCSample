@@ -22,8 +22,6 @@ public class Controller implements Model.ModelEvent{
     Model mModel;
     Activity mActivity;
     ViewGroup scheduleTable;
-    float hourOffset;
-    int d;
     float hourOffsetPx;
     float minuteOffsetPx;
     int idx = 0;
@@ -33,9 +31,8 @@ public class Controller implements Model.ModelEvent{
         mActivity = a;
         mModel = new Model();
 
-        hourOffset = 100;
-        d = (int)mActivity.getResources().getDisplayMetrics().density;
-        hourOffsetPx = hourOffset*d;
+        float hourOffset = 100;
+        hourOffsetPx = hourOffset*(int)mActivity.getResources().getDisplayMetrics().density;
         minuteOffsetPx = hourOffsetPx/60;
         scheduleTable = (ViewGroup)mActivity.findViewById(R.id.scheduleTable);
     }
